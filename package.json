@@ -1,0 +1,30 @@
+{
+  "name": "nnoise",
+  "version": "0.0.1",
+  "description": "Seamless tiling noise",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nrkn/nnoise.git"
+  },
+  "keywords": [
+    "noise",
+    "tiling",
+    "seamless"
+  ],
+  "author": "Nik Coughlin <nrkn.com@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nrkn/nnoise/issues"
+  },
+  "homepage": "https://github.com/nrkn/nnoise#readme",
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
+  },
+  "dependencies": {
+    "ngeom": "0.0.3",
+    "simplex-noise": "^2.2.0"
+  }
+}
